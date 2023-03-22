@@ -1,0 +1,276 @@
+/* Utility class */
+.space {
+  margin-top: 20px;
+}
+
+.mr-neg {
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.top_space {
+  margin-top: 50px;
+}
+
+.dl-in {
+  display: inline-block;
+  margin-left: 45px;
+}
+
+.dl-ln {
+  display: inline-block;
+  width: 480px;
+  margin-left: 50px;
+}
+
+.space-even {
+  justify-content: space-evenly;
+}
+
+/* Custom Fit class */
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:before {
+  border-bottom: 2px solid #2B64B5;
+  background: none;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.active>a {
+  color: #2B64B5;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 24px;
+  left: 0;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover:before {
+  visibility: visible;
+  background-color: transparent;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item.active>a:before {
+  background: none;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+  color: #2B64B5;
+}
+
+.set_color_cls {
+  color: #2B64B5 !important;
+}
+
+.goto-cart {
+  line-height: 0px;
+  font-size: 13px;
+  vertical-align: text-bottom;
+  display: inline-block;
+  padding: 0 50px;
+  color: #2d63b7 !important;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  color: #2d63b6;
+  padding: 2px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* About US Page */
+/* ....Text Rotation class */
+.about_text {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  font-size: 5rem;
+  color: lightgray;
+  margin-top: 220px;
+  margin-left: 50px;
+}
+
+.backgroud_banner {
+  width: 100%;
+  height: 500px;
+  background: #EFF2F5;
+  /* box-shadow: 0px 4px 5px -4px rgba(0,0,0,0.75); */
+  background: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blue_text_container {
+  background: #2B64B5;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  left: -140px;
+  top: -49px;
+}
+
+.intro-mt {
+  margin-top: 100px !important;
+}
+
+.gray_text_container {
+  background: #F5F5F5;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  position: relative;
+  top: 236px;
+  color: #7D7D7D;
+  text-align: left;
+  font-size: 13px;
+  float: right;
+  margin-right: 300px;
+  padding: 30px 30px;
+  text-align: justify;
+  width: 40% !important;
+}
+
+.gray_text_container a {
+  color: #1D70B7 !important;
+  font-size: 12px;
+}
+
+/* Services Page */
+/* ....Text Rotation class */
+.clr-text {
+  color: #2B64B5;
+  font-weight: 700;
+}
+
+.box_one {
+  width: 385px;
+  padding: 8px 10px;
+  height: 220px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  top: -67px;
+  left: 32px;
+}
+
+.box_one P {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7D7D7D;
+}
+
+.box_one a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #1D70B7 !important;
+  cursor: pointer;
+}
+
+.back_box-img {
+  background: url(../images/banner_three.jpeg);
+  width: 100%;
+  height: 272px;
+}
+
+.ps_box {
+  position: relative;
+  top: -250px;
+}
+
+.sp_ls {
+  margin-left: 10px;
+}
+
+.ftco-section {
+  padding: 0;
+}
+
+.ftc_tetimoninal {
+  top: -200px;
+}
+
+.bg_testimonial_left_side {
+  background: #EFF2F5;
+}
+
+.bg_testimonial_rigt_side {
+  background: #2B64B5;
+}
+
+.ln {
+  line-height: 270px;
+  color: #E6E6E6;
+}
+
+.testimonial_fnt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2B64B5;
+}
+
+.text_para {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 145px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.name_jessica {
+  color: #2B64B5 !important;
+  margin-left: 145px;
+}
+
+.bg-light {
+  background: whitesmoke !important;
+}
+
+.bg-secondary {
+  background: #fff !important;
+}
+
+.forth_container {
+  width: 35%;
+  margin: 20px auto;
+}
+
+.forth_container span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  color: #E6E6E6;
+  padding: 40px;
+}
+
+.slide-active-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2B64B5 !important;
+  text-decoration: underline;
+}
+.slider-section{
+  position: relative;
+  top: -150px;
+}

@@ -1,0 +1,61 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #2b64b5 no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.carousel-indicators li{
+    background-color: #2b64b5;
+}
+.carousel-control-next {
+    right: -150px
+}
+.carousel-control-prev {
+    left: -92px;
+}
+.carousel-control-prev, .carousel-control-next{
+    opacity: 0.9;
+}
+.back_box-img_slide {
+    background: url(../images/box_tech_one.webp);
+    width: 446px;
+    height: 220px;
+}
+.box_one_slide {
+    /* width: 395px; */
+    padding: 8px 8px;
+    height: 207px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -89px;
+    left: 54px;
+}
+.box_one_slide P {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    color: #7D7D7D;
+}
+.box_one_slide h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+.box_one_slide a{
+    color: #2b64b5 !important;
+    cursor: pointer;
+}
+svg.bi.bi-arrow-left-circle-fill {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+svg.bi.bi-arrow-right-circle-fill {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-top: 4px;
+}
